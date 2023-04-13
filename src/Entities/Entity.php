@@ -24,7 +24,7 @@ use Longman\TelegramBot\Entities\InputMedia\InputMedia;
  * @method array  getRawData()     Get the raw data passed to this entity
  * @method string getBotUsername() Return the bot name passed to this entity
  */
-abstract class Entity implements \JsonSerializable
+abstract class Entity extends \stdClass implements \JsonSerializable
 {
 
 
